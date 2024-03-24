@@ -25,16 +25,16 @@ source ~/.zprofile
 git clone git@github.com:vanpariyar/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/vanpariyar/dotfiles.git ~/.dotfiles/macos
+# git clone https://github.com/vanpariyar/dotfiles.git ~/.dotfiles/macos
 
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/macos/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/macos/.gitconfig ~/.gitconfig
 
 # Then pass in the Brewfile location...
-brew bundle --file ~/.dotfiles/Brewfile
+brew bundle --file ~/.dotfiles/macos/Brewfile
 
 # ...or move to the directory first.
 cd ~/.dotfiles && brew bundle
