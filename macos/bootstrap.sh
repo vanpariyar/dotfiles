@@ -37,4 +37,4 @@ ln -s ~/.dotfiles/macos/.gitconfig ~/.gitconfig
 brew bundle --file ~/.dotfiles/macos/Brewfile
 
 # ...or move to the directory first.
-cd ~/.dotfiles && brew bundle
+cd ~/.dotfiles/macos && brew bundle
