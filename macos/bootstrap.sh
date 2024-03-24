@@ -22,10 +22,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 source ~/.zprofile
 
 # Use SSH (if set up)...
-git clone git@github.com:vanpariyar/dotfiles.git ~/.dotfiles
+#git clone git@github.com:vanpariyar/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-# git clone https://github.com/vanpariyar/dotfiles.git ~/.dotfiles/macos
+git clone https://github.com/vanpariyar/dotfiles.git ~/.dotfiles/macos
 
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
