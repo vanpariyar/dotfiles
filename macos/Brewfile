@@ -1,6 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -14,3 +11,4 @@ cask "google-chrome"
 cask "visual-studio-code"
 cask "slack"
 cask "docker"
+cask "shottr"
